@@ -1,0 +1,17 @@
+Zarinpal Payment Gateway for phpnuxbill
+
+Installation Instructions:
+
+1. Unzip the file and place the `paymentgateway/` folder in:
+   /var/www/html/phpnuxbill/plugins/gateways/
+
+2. Login to the admin panel and go to Billing > Payment Gateways.
+
+3. Activate the Zarinpal gateway.
+
+4. Edit the gateway settings and enter your Merchant ID.
+
+5. Save settings and test payment.
+
+Notes:
+- Callback URL should be: https://yourdomain.com/payment.php
